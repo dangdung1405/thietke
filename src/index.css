@@ -1,0 +1,167 @@
+.product{
+  width: 100%;
+ position: relative;
+ float : left;
+ -webkit-tap-highlight-color: transparent;
+ }
+ .product .header{
+  text-shadow: 0 1px 1px rgba(3,3,3,0.7);
+  font-size: 18px;
+  
+   line-height: 40px;
+   position: relative;
+  box-sizing: border-box;
+  outline: none;
+  text-indent: 15px;
+  color: blue;
+  cursor: pointer;
+  text-align: left;
+ }
+ .product .list{
+   list-style: none;
+   font-family: 'Roboto',Helvetica,Arial,sans-serif;
+   text-align: -webkit-match-parent;
+   }
+ .list .lidiv{
+   position: relative;
+ }
+ .list .lidiv .li{
+   position: relative;
+   padding-bottom: 0px;
+   width: 47%;
+   float: left;
+   margin: 10px;
+   box-sizing: border-box;
+   background: none;
+ }
+ .list .li img{
+   margin: -5px;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ 
+.list .li .text{
+  position: absolute;
+    bottom: 0;
+    left:10px;
+    color: #ffffff;
+    /* width: 100%; */
+    line-height: 1;
+    text-align: left;
+    font-size: 22px;
+ 
+  background: none;
+}
+strong{
+  color: #999999 !important;
+  font-size: 14px;
+  font-weight: normal;
+  bottom: 10px;
+}
+.list .li .number{
+  position: absolute;
+  background: black;
+  bottom: 0;
+  right: 0;
+    color: white;
+    line-height: 1;
+    column-rule-width: 3cm;
+    text-align: right;
+    font-size: 20px;
+  font-weight: bold;
+  
+
+}
+.list .li .view{
+  position: absolute;
+  
+  top: 0;
+  right: 0;
+  font-size: 18px;
+    color: white;
+    background: black;
+    line-height: 1;
+    text-align: right;
+    font-size: 20px;
+	font-weight: bold;
+}
+
+.list .lidiv .tiny{
+  position: relative;
+   padding-bottom: 0px;
+   width: 23%;
+   float: left;
+   margin:  10px;
+   box-sizing: border-box;
+   background: none;
+   margin-bottom: -10px;
+   margin-top: 20px
+}
+.lidiv .tiny .up{
+  position: relative;
+  margin-top: -5px;
+}
+.tiny .up img{
+  margin: -5px;
+   width: 100%;
+   box-sizing: border-box;
+}
+.tiny .up .number1{
+  position: absolute;
+  background: black;
+  bottom: 0;
+  right: 0;
+    color: white;
+    line-height: 1;
+    column-rule-width: 3cm;
+    text-align: right;
+    font-size: 20px;
+  font-weight: bold;
+  
+
+}
+.tiny .up .view1{
+  position: absolute;
+  
+  top: 0;
+  right: 0;
+  font-size: 18px;
+    color: white;
+    background: black;
+    line-height: 1;
+    text-align: right;
+    font-size: 20px;
+	font-weight: bold;
+}
+.lidiv .tiny .down{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+.tiny .down h3{
+  font-weight: normal;
+    bottom: 0;
+    left:0;
+    color: #444444;
+    /* width: 100%; */
+    line-height: 1;
+    text-align: left;
+    font-size: 22px;
+  background: none;
+  margin-top: 5px;
+  margin-left: 2px;
+  
+}
+.tiny .down h4{
+  bottom: 0;
+  left:0;
+  color: #999999 !important;
+  /* width: 100%; */
+  line-height: 1;
+  text-align: left;
+  font-size: 14px;
+background: none;
+margin-top: -3px;
+margin-left: 2px;
+font-style: normal;
+}
